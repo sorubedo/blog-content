@@ -11,14 +11,14 @@
             "id": "e7e99d665a4bc616",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "index.md",
-                "bFile": "index.md",
-                "aRef": ""
+                "file": "index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff: index"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]
