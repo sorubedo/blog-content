@@ -1,6 +1,5 @@
 ---
 title: 🏠 欢迎来到我的赛博仓库 | About Me
-slug: about-me
 date: 2026-05-12
 tags:
   - about
