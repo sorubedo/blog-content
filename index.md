@@ -10,6 +10,8 @@ tags:
   - college-life
 description: |
   一个啥都会一点、啥都不精通的颓废大学生的博客。 这里有 Linux、代理、VPS、安卓刷机翻车实录、 无数踩坑记录，以及一位即将毕业的迷茫青年。 (A clueless college student's blog about Linux, proxies, VPS, Android modding, and impending unemployment.)
+aliases:
+  - aboutme
 ---
 # 👋 嗨，折腾之王（自封的）
 

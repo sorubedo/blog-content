@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "index"
             }
+          },
+          {
+            "id": "adc09b1870c09248",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,7 +191,7 @@
       "bases:新建数据库": false
     }
   },
-  "active": "e7e99d665a4bc616",
+  "active": "adc09b1870c09248",
   "lastOpenFiles": [
     "index.md"
   ]
