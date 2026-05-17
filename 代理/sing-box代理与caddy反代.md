@@ -24,7 +24,7 @@ description: 用 Caddy L4 插件做 SNI 分流，让 REALITY 流量和 HTTPS 流
 Caddy 的 `layer4` 插件正好就是干这个的。
 
 > [!note] 背景交代
-> 如果你还不了解 REALITY——简单说就是它通过模仿一个真实 TLS 会话（比如访问 `www.microsoft.com`）来隐藏代理流量，配合 VLESS 的 `xtls-rprx-vision` 流控消除 TLS-in-TLS 的指纹特征，比传统 TLS 伪装更难被识别。感兴趣可以深入了解 [[XTLS-REALITY 原理]]。
+> 如果你还不了解 REALITY——简单说就是它通过模仿一个真实 TLS 会话（比如访问 `www.microsoft.com`）来隐藏代理流量，配合 VLESS 的 `xtls-rprx-vision` 流控消除 TLS-in-TLS 的指纹特征，比传统 TLS 伪装更难被识别。感兴趣可以深入了解 [[代理/XTLS-REALITY 原理]]。
 
 ---
 
