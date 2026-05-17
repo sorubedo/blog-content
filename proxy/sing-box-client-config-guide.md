@@ -975,4 +975,4 @@ TUN 的优势：不需要手写一行路由规则，`auto_route` 自动处理，
 > [!note] 关于完整配置
 > 1. SSH 节点配置最简单、协议也足够安全，缺点是速度慢，这里用作备用。
 > 2. 所有 `rule_set` 中的远程 URL 使用了 `ghfast.top` 作为 GitHub 加速代理，在国内网络环境下可直连拉取。如果网络环境不同，可以去掉前缀直接使用 `https://raw.githubusercontent.com/...`。
-> 3. 这份配置**仍然不能直接用**——把带中文占位符的值替换成你自己的，再用 `sing-box check -c /path/to/ur/config.json` 验证一遍。
+> 3. 这份配置**仍然不能直接用**——把tproxy入站换成自己需要的入站，如tun入站，把带中文占位符的值替换成你自己的，再用 `sing-box check -c /path/to/ur/config.json` 验证一遍。
