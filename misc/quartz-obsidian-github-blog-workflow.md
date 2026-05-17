@@ -78,8 +78,6 @@ npx quartz create
 
 默认 `content/` 里有示例文章，删掉就行。
 
----
-
 ## 🔗 第二步：Git 子模块分离内容与框架
 
 这是整个架构最关键的一步。把 `content/` 替换为独立仓库的子模块，实现**内容与框架分离**：
@@ -231,6 +229,17 @@ afterBody: [
 | **GitHub Discussions** | Giscus 评论区后端 | 免费 |
 
 全部跑在 GitHub 上，没有 VPS、没有数据库、没有服务器账单。即使哪天 GitHub 挂了（不太可能），你的 Markdown 文件全在本地，换一个 SSG 重新生成就行。
+
+### 手机端同步：obsidian-git 插件
+
+手机上 Obsidian 怎么把文章推到 GitHub？用社区插件 [obsidian-git](https://github.com/Vinzent03/obsidian-git)。
+
+虽然开发者表示安卓端不在官方支持范围内，但实际使用下来，做**备份、拉取、提交推送**完全没问题，写完后打开菜单点一下就同步上去了，配合前面的 `repository_dispatch` 触发器，全程不用碰 Git 命令。
+
+> [!note]
+> 不建议在安卓上用它做复杂的合并/变基操作。日常就是：打开 Obsidian → 写 → 插件推送 → 博客自动更新。简单场景够用了。
+
+---
 
 ---
 
