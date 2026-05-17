@@ -178,10 +178,11 @@
   },
   "active": "bc49cfdb8ae91dc1",
   "lastOpenFiles": [
-    "Zashboard.md",
-    "proxy/sing-box-client-config-guide.md",
-    "proxy/sing-box-reality-caddy-layer4-docker-443.md",
     "index.md",
+    "CLAUDE.md",
+    "proxy/sing-box-client-config-guide.md",
+    "Zashboard.md",
+    "proxy/sing-box-reality-caddy-layer4-docker-443.md",
     "代理/XTLS-REALITY 原理.md",
     "XTLS-REALITY 原理.md",
     "proxy"
