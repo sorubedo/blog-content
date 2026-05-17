@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gnu-linux/cloud-native-immutable-linux.md",
+                "file": "misc/android-lxc-container-droidspaces.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cloud-native-immutable-linux"
+              "title": "android-lxc-container-droidspaces"
             }
           }
         ]
@@ -178,6 +178,7 @@
   },
   "active": "bc49cfdb8ae91dc1",
   "lastOpenFiles": [
+    "gnu-linux/cloud-native-immutable-linux.md",
     "CLAUDE.md",
     "proxy/sing-box-reality-caddy-layer4-docker-443.md",
     "proxy/sing-box-client-config-guide.md",
