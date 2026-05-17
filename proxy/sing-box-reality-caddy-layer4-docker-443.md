@@ -297,7 +297,7 @@ docker compose up -d            # 重新启动
 
 ## 客户端配置
 
-服务端跑起来了，客户端怎么配？sing-box 的客户端配置比服务端长好几倍——DNS 分流、TUN 入站、规则集路由、FakeDNS……每个模块都值得单独讲。我另写了一篇 [[sing-box-client-config-guide|客户端配置完全解析]]，含一份脱敏的完整配置文件逐段拆解，以及 TPROXY 为什么在 Android 上是个噩梦。
+服务端跑起来了，客户端怎么配？sing-box 的客户端配置比服务端长好几倍——DNS 分流、TUN 入站、规则集路由、FakeDNS……每个模块都值得单独讲。我另写了一篇 [[sing-box-client-config-guide|客户端配置完全解析]]，含一份脱敏的完整配置文件逐段拆解。
 
 ---
 
