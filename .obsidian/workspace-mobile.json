@@ -11,10 +11,14 @@
             "id": "bdbaa2055758764c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "diff-view",
+              "state": {
+                "aFile": "代理/sing-box代理与caddy反代.md",
+                "bFile": "代理/sing-box代理与caddy反代.md",
+                "aRef": ""
+              },
+              "icon": "git-pull-request",
+              "title": "Diff: sing-box代理与caddy反代"
             }
           }
         ]
