@@ -364,12 +364,11 @@ TUN 的优势：不需要手写一行路由规则，`auto_route` 自动处理，
 
 路径取决于你的运行方式：
 
-| 平台 | 工作区路径 | 规则文件位置 |
-|:--|:--|:--|
-| Linux（systemd 包管理器安装） | `/var/lib/sing-box/` | `/var/lib/sing-box/rules/` |
-| SFA（Android） | 设置 → 核心 → 打开工作区 | `工作区/rules/` |
-| Docker | `-D /workdir` | `/workdir/rules/` |
-| 手动命令行 | `-D` 指定的任意路径 | `<指定路径>/rules/` |
+| 平台                          | 工作区路径                | 规则文件位置                     |     |
+| :-------------------------- | :------------------- | :------------------------- | --- |
+| Linux（包管理器安装自带的systemd服务单元） | `/var/lib/sing-box/` | `/var/lib/sing-box/rules/` |     |
+| SFA（Android）                | 设置 → 核心 → 打开工作区      | `工作区/rules/`               |     |
+| 手动命令行                       | `-D` 指定的任意路径         | `<指定路径>/rules/`            |     |
 
 ### 域名规则示例 `rules/custom-domain.json`
 
