@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b21cedfa498c69c1",
+        "id": "bd7667399a6ee00c",
         "type": "tabs",
         "children": [
           {
-            "id": "bc49cfdb8ae91dc1",
+            "id": "9f41fbec67bfc52e",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "gnu-linux/cloud-native-immutable-linux.md",
-                "bFile": "gnu-linux/cloud-native-immutable-linux.md",
-                "aRef": ""
+                "file": "gnu-linux/first-copr-package-niri-virtual-output.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff: cloud-native-immutable-linux"
+              "icon": "lucide-file",
+              "title": "first-copr-package-niri-virtual-output"
             }
           }
         ]
@@ -176,8 +176,11 @@
       "bases:新建数据库": false
     }
   },
-  "active": "bc49cfdb8ae91dc1",
+  "active": "9f41fbec67bfc52e",
   "lastOpenFiles": [
+    "gnu-linux/first-copr-package-niri-virtual-output.md.tmp.277.0bb7737085af",
+    "gnu-linux/first-copr-package-niri-virtual-output.md.tmp.277.9569e6c5b08b",
+    "gnu-linux/first-copr-package-niri-virtual-output.md.tmp.277.57e886c7052e",
     "misc/android-lxc-container-droidspaces.md",
     "index.md",
     "proxy/sing-box-client-config-guide.md",
