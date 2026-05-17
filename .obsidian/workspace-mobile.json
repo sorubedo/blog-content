@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8edbdbe2a494e5b9",
+        "id": "b21cedfa498c69c1",
         "type": "tabs",
         "children": [
           {
-            "id": "bdbaa2055758764c",
+            "id": "bc49cfdb8ae91dc1",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "aFile": "代理/sing-box代理与caddy反代.md",
-                "bFile": "代理/sing-box代理与caddy反代.md",
-                "aRef": ""
-              },
-              "icon": "git-pull-request",
-              "title": "Diff: sing-box代理与caddy反代"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -176,10 +172,10 @@
       "bases:新建数据库": false
     }
   },
-  "active": "bdbaa2055758764c",
+  "active": "bc49cfdb8ae91dc1",
   "lastOpenFiles": [
-    "index.md",
     "proxy/sing-box-reality-caddy-layer4-docker-443.md",
+    "index.md",
     "代理/XTLS-REALITY 原理.md",
     "XTLS-REALITY 原理.md",
     "proxy"
