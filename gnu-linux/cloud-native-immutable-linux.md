@@ -9,7 +9,7 @@ description: "我造了个没人用的发行版，但我依然坚信不可变基
 
 简单说，**[obedur-os](https://github.com/sorubedo/obedur-os)** 是我用 [BlueBuild](https://blue-build.org/) 搓出来的一个 Fedora Atomic 不可变发行版。它基于 OCI 容器镜像构建，系统核心只读，更新原子化，出了问题一个命令就能回滚到上一个版本。
 
-桌面环境是 **[[Niri]]**（一个 Wayland 下的滚动平铺合成器）+ **[[Noctalia Shell]]**，内核换成了 CachyOS 的 LTO 优化版。还顺手做了 SecureBoot 支持、每日 GH Actions 自动构建、cosign 签名验证。
+桌面环境是 **[Niri](https://github.com/YaLTeR/niri)**（一个 Wayland 下的滚动平铺合成器）+ **[Noctalia Shell](https://docs.noctalia.dev/)**，内核换成了 CachyOS 的 LTO 优化版。还顺手做了 SecureBoot 支持、每日 GH Actions 自动构建、cosign 签名验证。
 
 > [!note] 碎碎念
 > 说白了就是把 Fedora Silverblue 拿过来，换了层皮，塞了点私货。没什么高深的技术含量，但我觉得这个**方向**是对的。
@@ -32,7 +32,7 @@ description: "我造了个没人用的发行版，但我依然坚信不可变基
 
 传统 `dnf update` 的问题：如果更新到一半断电了，系统可能处于一个薛定谔的状态 —— 半新不旧，既不是旧版本也不是新版本。
 
-原子化更新保证：**要么全部生效，要么完全不生效**。类似于数据库事务，没有中间态。Fedora Atomic 底层用的是 [[Ostree]]，每次更新都是一次完整的树切换。
+原子化更新保证：**要么全部生效，要么完全不生效**。类似于数据库事务，没有中间态。Fedora Atomic 底层用的是 [Ostree](https://ostreedev.github.io/ostree/)，每次更新都是一次完整的树切换。
 
 ### 容器化构建（Container-native Build）
 
@@ -63,7 +63,7 @@ bootc switch ghcr.io/sorubedo/obedur-os:latest
 
 Debian 的 apt、Fedora 的 dnf、Arch 的 pacman……这些包管理器本质上都是**状态机**。系统的最终状态取决于你**按什么顺序**装了什么包。同一套包列表，不同的安装顺序可能导致不同的结果。
 
-[[NixOS]] 和 [[Guix]] 用声明式配置解决了这个问题，但学习曲线陡峭得堪比悬崖。不可变 + 容器化模型则提供了一个折中：**用容器构建时的声明式定义保证可复现，用 ostree 的原子切换保证运行时安全**。
+[NixOS](https://nixos.org/) 和 [Guix](https://guix.gnu.org/) 用声明式配置解决了这个问题，但学习曲线陡峭得堪比悬崖。不可变 + 容器化模型则提供了一个折中：**用容器构建时的声明式定义保证可复现，用 ostree 的原子切换保证运行时安全**。
 
 ### 2. 桌面 Linux 需要「消费者化」
 
@@ -81,7 +81,7 @@ macOS 有 sealed system volume，ChromeOS 用 dual-partition A/B 更新，Androi
 - **任何时间**我都能回滚到之前的已发布的任意版本
 - 构建日志公开透明，出问题能追溯
 
-这就是 [[DevOps]] 理念在操作系统层的应用：Infrastructure as Code，操作系统镜像也是 Infrastructure。
+这就是 DevOps 理念在操作系统层的应用：Infrastructure as Code，操作系统镜像也是 Infrastructure。
 
 ### 4. 分发就是一次 `docker pull`
 
@@ -112,7 +112,7 @@ macOS 有 sealed system volume，ChromeOS 用 dual-partition A/B 更新，Androi
 
 **[👉 github.com/sorubedo/obedur-os](https://github.com/sorubedo/obedur-os)**
 
-如果你想自己搓一个类似的发行版，推荐看看 [[BlueBuild]] 的[文档](https://blue-build.org/)，上手比想象中简单很多。你只需要写几个 YAML 文件，剩下的交给 GitHub Actions。
+如果你想自己搓一个类似的发行版，推荐看看 [BlueBuild](https://blue-build.org/) 的文档，上手比想象中简单很多。你只需要写几个 YAML 文件，剩下的交给 GitHub Actions。
 
 ---
 
