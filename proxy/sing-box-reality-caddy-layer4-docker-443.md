@@ -7,6 +7,8 @@ tags:
   - caddy
   - proxy
 description: 用 Caddy L4 插件做 SNI 分流，让 REALITY 流量和 HTTPS 流量在同一端口上——一次从裸机到容器化的迁移记录。
+aliases:
+  - test
 ---
 
 ## 为什么要折腾
