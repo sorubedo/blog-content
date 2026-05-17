@@ -100,7 +100,7 @@ COPY --from=builder /usr/bin/caddy /usr/bin/caddy
     }
 }
 
-sorubedo.xyz {
+example.com {
     respond "Hello World!" 200
 }
 ```
@@ -115,7 +115,7 @@ sorubedo.xyz {
 > [!warning] 避坑警告
 > `layer4` 块里的 `proxy` 是 L4 透明代理，不解析 HTTP，不修改 TLS。这意味着 sing-box 拿到的就是客户端原始 TLS ClientHello，REALITY 才能正常工作。千万别在中间加任何 TLS 终止。
 
-最后那段 `sorubedo.xyz` 是你自己的站点配置，用来验证 Caddy 的反向代理能力——你可以替换成自己的域名和 `reverse_proxy` 指令。
+最后那段 `example.com` 是你自己的站点配置，用来验证 Caddy 的反向代理能力——你可以替换成自己的域名和 `reverse_proxy` 指令。
 
 ### 2. sing-box：VLESS + XTLS-REALITY
 
