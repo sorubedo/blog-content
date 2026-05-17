@@ -1,8 +1,12 @@
 ---
-title: "在安卓上跑 LXC 容器：把手机变成真正的 Linux 服务器"
-date: 2026-05-17
-tags: [android, lxc, linux, kernel]
-description: "编译自定义内核、刷入 Droidspaces、在手机 Debian 容器里跑 Claude Code + cc-connect，然后用 Obsidian 实时编辑 —— 这大概是我今年最爽的一次折腾。Running a full FHS Linux distro on Android with LXC containers is absurdly satisfying."
+title: 在安卓上跑 LXC 容器：把手机变成真正的 Linux 服务器
+date: 2026-05-16
+tags:
+  - android
+  - lxc
+  - linux
+  - kernel
+description: 编译自定义内核、刷入 Droidspaces、在手机 Debian 容器里跑 Claude Code + cc-connect，然后用 Obsidian 实时编辑 —— 这大概是我今年最爽的一次折腾。Running a full FHS Linux distro on Android with LXC containers is absurdly satisfying.
 ---
 
 ## 🤯 手机里跑个完整的 Linux 发行版？认真的？

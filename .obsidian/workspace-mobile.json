@@ -178,10 +178,11 @@
   },
   "active": "bc49cfdb8ae91dc1",
   "lastOpenFiles": [
+    "proxy/sing-box-client-config-guide.md",
+    "proxy/sing-box-reality-caddy-layer4-docker-443.md",
+    "misc/android-lxc-container-droidspaces.md",
     "gnu-linux/cloud-native-immutable-linux.md",
     "CLAUDE.md",
-    "proxy/sing-box-reality-caddy-layer4-docker-443.md",
-    "proxy/sing-box-client-config-guide.md",
     "index.md",
     "Zashboard.md",
     "代理/XTLS-REALITY 原理.md",

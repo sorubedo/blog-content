@@ -1,6 +1,6 @@
 ---
 title: sing-box 客户端配置完全解析
-date: 2026-05-17
+date: 2026-05-15
 tags:
   - sing-box
   - proxy
