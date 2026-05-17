@@ -95,7 +95,7 @@ aliases:
 - **Remote-DNS**：通过代理节点（`detour: "🚀 节点选择"`）访问 Google DNS，确保获得无污染的解析结果。
 
 规则逻辑：
-1. Clash 兼容模式 —— `direct` 直连时用本地 DNS，`global` 全局模式全走 FakeDns；
+1. Clash 模式 —— `direct` 直连时用本地 DNS，`global` 全局模式全走 FakeDns；
 2. 非内网/非系统探测域名的 A/AAAA 查询，统一走 FakeDns；
 3. 命中 `CN-Domain` 规则集的域名用本地 DNS；
 4. 兜底走 Remote-DNS。
@@ -437,10 +437,10 @@ TUN 的优势：不需要手写一行路由规则，`auto_route` 自动处理，
 ```
 
 - **cache_file**：缓存 FakeDNS 映射和 DNS 记录到 `cache.db`，重启不丢，`rdrc_timeout: 168h` 表示缓存一周；
-- **clash_api**：开启 REST API，配合 Yacd / [[Zashboard]] 面板做可视化管理。`external_controller` 监听 `127.0.0.1:23333`，面板通过它切换节点、查看连接。
+- **clash_api**：开启 REST API，配合 Zashboard 面板做可视化管理。`external_controller` 监听 `127.0.0.1:23333`，面板通过它切换节点、查看连接。
 
 > [!warning] 安全提醒
-> `secret` 已替换为占位符。这个密码是面板登录凭证，请设为强密码并妥善保管。`access_control_allow_origin: *` 仅在本地使用时问题不大，别把 `external_controller` 绑到 `0.0.0.0` 上。
+> `secret` 已替换为占位符。这个密码是面板登录凭证，请设为强密码并妥善保管。如果要从其他设备访问请把 `external_controller` 绑到 `0.0.0.0` 上。
 
 ---
 
