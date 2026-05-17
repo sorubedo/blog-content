@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "misc/quartz-obsidian-github-blog-workflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "quartz-obsidian-github-blog-workflow"
             }
           }
         ]
@@ -178,12 +178,15 @@
   },
   "active": "9f41fbec67bfc52e",
   "lastOpenFiles": [
+    "index.md",
+    "misc/quartz-obsidian-github-blog-workflow.md",
+    "misc/quartz-obsidian-github-blog-workflow.md.tmp.277.06630b4b6484",
+    "misc/quartz-obsidian-github-blog-workflow.md.tmp.277.f0b13e50a5d7",
     "gnu-linux/first-copr-package-niri-virtual-output.md",
     "gnu-linux/first-copr-package-niri-virtual-output.md.tmp.277.0bb7737085af",
     "gnu-linux/first-copr-package-niri-virtual-output.md.tmp.277.9569e6c5b08b",
     "gnu-linux/first-copr-package-niri-virtual-output.md.tmp.277.57e886c7052e",
     "misc/android-lxc-container-droidspaces.md",
-    "index.md",
     "proxy/sing-box-client-config-guide.md",
     "proxy/sing-box-reality-caddy-layer4-docker-443.md",
     "gnu-linux/cloud-native-immutable-linux.md",
