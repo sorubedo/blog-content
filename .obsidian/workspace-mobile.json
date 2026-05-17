@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "proxy/sing-box-reality-caddy-layer4-docker-443.md",
+                "file": "proxy/sing-box-client-config-guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sing-box-reality-caddy-layer4-docker-443"
+              "title": "sing-box-client-config-guide"
             }
           }
         ]
