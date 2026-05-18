@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/rag-knowledge-base-frontend-journey.md",
+                "file": "journal/2026-05-18.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rag-knowledge-base-frontend-journey"
+              "title": "2026-05-18"
             }
           }
         ]
@@ -178,8 +178,8 @@
   },
   "active": "9f41fbec67bfc52e",
   "lastOpenFiles": [
-    "projects/i-wzu-auth-headless-campus-network.md",
     "projects/rag-knowledge-base-frontend-journey.md",
+    "projects/i-wzu-auth-headless-campus-network.md",
     "index.md",
     "misc/quartz-obsidian-github-blog-workflow.md",
     "index.md.tmp.500.f4e12a5d768e",
