@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "projects/i-wzu-auth-headless-campus-network.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "i-wzu-auth-headless-campus-network"
             }
           }
         ]
@@ -178,8 +178,8 @@
   },
   "active": "9f41fbec67bfc52e",
   "lastOpenFiles": [
-    "misc/quartz-obsidian-github-blog-workflow.md",
     "index.md",
+    "misc/quartz-obsidian-github-blog-workflow.md",
     "index.md.tmp.500.f4e12a5d768e",
     "index.md.tmp.500.f1aa97e883e8",
     "projects",
