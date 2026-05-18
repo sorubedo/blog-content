@@ -178,6 +178,11 @@
   },
   "active": "9f41fbec67bfc52e",
   "lastOpenFiles": [
+    "assets/google-student-pack-cancellation.jpg",
+    "journal/2026-05-18.md",
+    "journal/2026-05-18.md.tmp.111.450fa9e73e90",
+    "assets",
+    "content/journal/2026-05-18.md.tmp.111.0bfebb82b540",
     "projects/rag-knowledge-base-frontend-journey.md",
     "projects/i-wzu-auth-headless-campus-network.md",
     "index.md",
@@ -185,14 +190,12 @@
     "index.md.tmp.500.f4e12a5d768e",
     "index.md.tmp.500.f1aa97e883e8",
     "projects",
-    "journal/2026-05-18.md",
     "journal/2026-05-17.md",
     "misc/quartz-obsidian-github-blog-workflow.md.tmp.277.06630b4b6484",
     "misc/quartz-obsidian-github-blog-workflow.md.tmp.277.f0b13e50a5d7",
     "gnu-linux/first-copr-package-niri-virtual-output.md",
     "gnu-linux/first-copr-package-niri-virtual-output.md.tmp.277.0bb7737085af",
     "gnu-linux/first-copr-package-niri-virtual-output.md.tmp.277.9569e6c5b08b",
-    "gnu-linux/first-copr-package-niri-virtual-output.md.tmp.277.57e886c7052e",
     "misc/android-lxc-container-droidspaces.md",
     "proxy/sing-box-client-config-guide.md",
     "proxy/sing-box-reality-caddy-layer4-docker-443.md",
@@ -200,7 +203,6 @@
     "CLAUDE.md",
     "Zashboard.md",
     "代理/XTLS-REALITY 原理.md",
-    "XTLS-REALITY 原理.md",
-    "proxy"
+    "XTLS-REALITY 原理.md"
   ]
 }
