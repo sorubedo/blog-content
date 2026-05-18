@@ -59,7 +59,7 @@ i-wzu-auth status
 i-wzu-auth logout
 ```
 
-要注意的是，bash 等 shell 会把命令记录写到文件里，这会泄露密码，以后也许改成stdin交互式输入。还支持环境变量 `SRUN_USER` / `SRUN_PASS` / `SRUN_URL`
+要注意的是，bash 等 shell 会把命令记录写到文件里，这会泄露密码，以后也许改成 stdin 交互式输入。还支持环境变量 `SRUN_USER` / `SRUN_PASS` / `SRUN_URL`
 ## cargo-dist + GitHub Actions: 一键全平台发布
 
 这是整个项目最爽的部分。
