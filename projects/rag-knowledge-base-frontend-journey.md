@@ -49,7 +49,7 @@ src/
 
 ## 容器化：多阶段构建 + Nginx 反代
 
-部署这块是我最感兴趣的部分。用 Podman（对，不是 Docker，问就是红帽信徒）写了个 `Containerfile`：
+部署这块是我最感兴趣的部分。用 Podman（对，不是 Docker，问就是红帽信徒，quadlet 和 systemd 好用爱用有没有懂的）写了个 `Containerfile`：
 
 ```dockerfile
 # 第一阶段：Node 构建
@@ -99,7 +99,7 @@ location /api/ {
 
 ## Electron 打包：换了一种网络模型
 
-前端全让 GEMINI CLI 给我写完了，但我总得再做点啥，”Electron有意思，打包一下吧“ 我想 ，用的`electron-builder`：
+前端全让 GEMINI CLI 给我写完了，但我总得再做点啥，” Electron 有意思，打包一下吧“ 我想 ，用的`electron-builder`：
 
 ```json
 {
