@@ -53,7 +53,6 @@ i-wzu-auth login -u 学号 -p 密码
 
 # 查状态
 i-wzu-auth status
-# 输出：在线时长 X天X小时，已用流量 X.XX GB，在线设备 2 台...
 
 # 注销
 i-wzu-auth logout
