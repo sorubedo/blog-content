@@ -49,29 +49,21 @@ aliases:
 
 ### 🔐 代理与网络
 
-- 玩过的代理软件：**sing-box**, **mihomo** (原 Clash Meta), **Xray**, **dae**, **NaiveProxy**……
-- 买过的 VPS：Akile、搬瓦工、甲骨文云、以及各种灵车商家
-- 干过的事：自建梯子、自建网盘、自建 DNS、自建一切
+sing-box、mihomo、Xray、dae… 各种代理玩了个遍。买过搬瓦工、甲骨文和各种灵车 VPS，自建梯子、网盘、DNS——主打一个万物皆可 self-host。
 
 ### 🪟 窗口管理器
 
-- **Hyprland**：Wayland 下丝滑动画体验
-- **niri**：滚动式平铺，新鲜独特。我的 obedur-os 桌面环境就是 niri + Noctalia Shell
+Hyprland 的丝滑动画，niri 的滚动式平铺——Wayland 下两个最爱，目前定居 niri + Noctalia Shell。
 
 ### 📱 移动设备折腾
 
-- 🧬 各类原生/类原生 ROM 刷了个遍：LineageOS、crDroid、Pixel Experience……
-- 🔧 拉 AOSP 源码编译自定义内核，给安卓用上了 LXC 容器
-- 🎭 Magisk、KernelSU (KSU)、LSPosed 玩遍，模块装得比应用还多
-- 🪟 给手机刷过 Windows On ARM、PostmarketOS —— 让所有设备跑不该跑的系统
+- LineageOS、crDroid、Pixel Experience… 原生 ROM 刷了个遍，拉内核源码编译过自定义内核
+- Magisk、KernelSU、LSPosed 玩遍，模块装得比应用还多
+- 给手机刷过 Windows On ARM、PostmarketOS——让所有设备跑不该跑的系统
 
-### 💻 编程语言
+### 💻 编程
 
-- **Kotlin**：Android 课设
-- **Rust**：做了个校园网无头登录 CLI 程序
-- **Go**：写 CLI 工具
-- **Python**：给 obedur-os 做了 OOBE
-- 日常重度使用 **Claude Code** / **Gemini CLI** 辅助开发
+ **Kotlin / Rust / Go / Python / C++ / Java / Javascript / Dart**，都接触过一点点。日常重度使用 **Claude Code** 和 **Gemini CLI** 辅助开发
 
 ---
 
