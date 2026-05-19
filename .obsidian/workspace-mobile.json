@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gnu-linux/cloud-native-immutable-linux.md",
+                "file": "misc/android-lxc-container-droidspaces.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cloud-native-immutable-linux"
+              "title": "android-lxc-container-droidspaces"
             }
           }
         ]
@@ -179,6 +179,8 @@
   "active": "9f41fbec67bfc52e",
   "lastOpenFiles": [
     "projects/rag-knowledge-base-frontend-journey.md",
+    "CLAUDE.md",
+    "gnu-linux/cloud-native-immutable-linux.md",
     "journal/2026-05-19.md",
     "misc/android-lxc-container-droidspaces.md",
     "index.md",
@@ -200,8 +202,6 @@
     "gnu-linux/first-copr-package-niri-virtual-output.md",
     "proxy/sing-box-client-config-guide.md",
     "proxy/sing-box-reality-caddy-layer4-docker-443.md",
-    "gnu-linux/cloud-native-immutable-linux.md",
-    "CLAUDE.md",
     "Zashboard.md",
     "代理/XTLS-REALITY 原理.md",
     "XTLS-REALITY 原理.md"
