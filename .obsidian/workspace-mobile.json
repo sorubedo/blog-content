@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/i-wzu-auth-headless-campus-network.md",
+                "file": "journal/2026-05-19.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "i-wzu-auth-headless-campus-network"
+              "title": "2026-05-19"
             }
           }
         ]
@@ -176,8 +176,9 @@
       "bases:新建数据库": false
     }
   },
-  "active": "ecc752a36825f4d6",
+  "active": "9f41fbec67bfc52e",
   "lastOpenFiles": [
+    "projects/i-wzu-auth-headless-campus-network.md",
     "journal/2026-05-19.md",
     "journal/2026-05-18.md",
     "assets/google-student-pack-cancellation.jpg",
@@ -185,7 +186,6 @@
     "assets",
     "content/journal/2026-05-18.md.tmp.111.0bfebb82b540",
     "projects/rag-knowledge-base-frontend-journey.md",
-    "projects/i-wzu-auth-headless-campus-network.md",
     "index.md",
     "misc/quartz-obsidian-github-blog-workflow.md",
     "index.md.tmp.500.f4e12a5d768e",
