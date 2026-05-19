@@ -83,6 +83,8 @@ ip a               # 独立网络栈
 
 没有阉割，没有 hack，就是一个完整的、符合 FHS 标准的 Linux 系统。在手机上。
 
+![Termux 中进入容器，fastfetch + systemctl status ssh](../assets/droidspaces-terminal-demo.jpg)
+
 ### 挂载手机存储
 
 Droidspaces 支持把 `/storage/emulated/0` bind-mount 进容器。这意味着：
