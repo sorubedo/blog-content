@@ -1,0 +1,1 @@
+- [diary-timestamps](feedback-diary-timestamps.md) — 写日记时必须用 `date '+%H:%M'` 获取精确系统时间并写入内容
