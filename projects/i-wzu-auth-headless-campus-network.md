@@ -41,7 +41,7 @@ description: "用 Rust + Gemini CLI 搓了个无头校园网认证工具，cargo
 
 ### 几个有意思的设计点
 
-**自动检测在线状态**：`check_online()` 用 `ureq` GET `http://www.google.cn/generate_204`，超时 3 秒。这是 Android 同款的 Captive Portal 检测方式，比 ping 靠谱——路由器劫持 DNS 也骗不了 HTTP 204。
+**自动检测在线状态**：`check_online()` 用 `ureq` GET `http://www.google.cn/generate_204`，超时 3 秒。
 
 **注销逻辑分两步**：先是 `rad_user_dm` 解除 MAC 无感绑定，再 `srun_portal` 标准 Session 注销。缺第一步会导致「服务器明明返回注销成功但马上又登录了」的玄学 bug。
 
