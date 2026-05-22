@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "misc/android-lxc-container-droidspaces.md",
+                "file": "gnu-linux/guix-journey-part-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "android-lxc-container-droidspaces"
+              "title": "guix-journey-part-1"
             }
           }
         ]
@@ -178,11 +178,12 @@
   },
   "active": "9f41fbec67bfc52e",
   "lastOpenFiles": [
+    "journal/2026-05-21.md",
+    "misc/android-lxc-container-droidspaces.md",
     "projects/rag-knowledge-base-frontend-journey.md",
     "CLAUDE.md",
     "gnu-linux/cloud-native-immutable-linux.md",
     "journal/2026-05-19.md",
-    "misc/android-lxc-container-droidspaces.md",
     "index.md",
     "journal/2026-05-18.md",
     "CLAUDE.md.tmp.323.12570efa551e",
