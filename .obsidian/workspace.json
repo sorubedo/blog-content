@@ -11,12 +11,14 @@
             "id": "71312a2c3868be52",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/Screenshot_2026-05-28_15-33-29.png"
+                "file": "gnu-linux/arch-reinstall-niri-desktop-adventure.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Screenshot_2026-05-28_15-33-29"
+              "icon": "lucide-file",
+              "title": "arch-reinstall-niri-desktop-adventure"
             }
           }
         ]
@@ -178,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,8 +197,8 @@
   },
   "active": "71312a2c3868be52",
   "lastOpenFiles": [
-    "assets/satty-20260528-15 06 39.png",
     "assets/Screenshot_2026-05-28_15-33-29.png",
+    "assets/satty-20260528-15 06 39.png",
     "assets/wonton-dumplings-pinhaofan.jpg",
     "assets/satty-20260528-15 03 58.png",
     "assets/satty-20260528-15 00 23.png",

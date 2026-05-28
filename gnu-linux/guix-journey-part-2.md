@@ -1,6 +1,6 @@
 ---
 title: "Guix 一日体验：我放弃了"
-date: 2026-05-23
+date: 2026-05-25
 tags:
   - linux
   - guix
