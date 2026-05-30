@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journal/2026-05-30.md",
+                "file": "journal/2026-05-31.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-30"
+              "title": "2026-05-31"
             }
           }
         ]
@@ -178,9 +178,10 @@
   },
   "active": "9f41fbec67bfc52e",
   "lastOpenFiles": [
+    "journal/2026-05-30.md",
+    "journal/2026-05-31.md",
     "gnu-linux/arch-reinstall-niri-desktop-adventure.md",
     "CLAUDE.md.tmp.212.54b760d50266",
-    "journal/2026-05-30.md",
     "journal/2026-05-21.md",
     "gnu-linux/guix-journey-part-2.md",
     "gnu-linux/guix-journey-part-2.md.tmp.986.142517ee27b3",
