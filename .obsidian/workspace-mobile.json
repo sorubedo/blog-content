@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journal/2026-05-31.md",
+                "file": "gnu-linux/arch-reinstall-niri-desktop-adventure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-31"
+              "title": "arch-reinstall-niri-desktop-adventure"
             }
           }
         ]
@@ -178,9 +178,9 @@
   },
   "active": "9f41fbec67bfc52e",
   "lastOpenFiles": [
-    "journal/2026-05-31.md.tmp.720.ee9cccacd1a6",
-    "gnu-linux/arch-reinstall-niri-desktop-adventure.md",
     "journal/2026-05-31.md",
+    "gnu-linux/arch-reinstall-niri-desktop-adventure.md",
+    "journal/2026-05-31.md.tmp.720.ee9cccacd1a6",
     "projects/i-wzu-auth-headless-campus-network.md",
     "assets/Screenshot_20260531-111702_Termux.png",
     "assets/Screenshot_20260531-111456_Termux.png",
@@ -206,7 +206,6 @@
     "content/journal/2026-05-18.md.tmp.111.0bfebb82b540",
     "misc/quartz-obsidian-github-blog-workflow.md",
     "index.md.tmp.500.f4e12a5d768e",
-    "index.md.tmp.500.f1aa97e883e8",
     "journal/2026-05-17.md",
     "gnu-linux/first-copr-package-niri-virtual-output.md",
     "proxy/sing-box-client-config-guide.md",

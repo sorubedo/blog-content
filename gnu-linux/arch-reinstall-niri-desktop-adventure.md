@@ -25,7 +25,7 @@ description: 装个 Arch 不难，难的是选一个能用的桌面环境。在 
 
 waybar 仓库的示例配置 —— 没有完美适配的。这个倒也正常，毕竟协议层全变了，之前 0.3.x 时代的配置全废了。
 
-不过在翻 waybar 配置的时候看到个有意思的窗管：[rhine](https://github.com/FreeFull/rhine)，它兼容了 **hyprland IPC call**。这意味着 Hyprland 社区的 waybar 配置大概率能直接用。
+不过在翻 waybar 配置的时候看到个有意思的窗管：[rhine](https://codeberg.org/sivecano/rhine)，它兼容了 **hyprland IPC call**。这意味着 Hyprland 社区的 waybar 配置大概率能直接用。
 
 但说实话，我已经懒得折腾了。我需要赶紧弄出个**能干活的工作环境**，不是来当发行版鉴赏家的，我早重装过Arch n次了。
 
