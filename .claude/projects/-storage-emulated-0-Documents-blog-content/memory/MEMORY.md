@@ -1,1 +1,3 @@
 - [diary-timestamps](feedback-diary-timestamps.md) — 写日记时必须用 `date '+%H:%M'` 获取精确系统时间并写入内容
+- [pending-diary-tray-host](pending-diary-tray-host.md) — 用户提醒明天写 tray-host 项目的日记
+- [qbittorrent-frp-setup](qbittorrent-frp-setup.md) — qBittorrent + frp 内网穿透做种配置详情
