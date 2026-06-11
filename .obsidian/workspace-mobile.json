@@ -11,14 +11,12 @@
             "id": "9f41fbec67bfc52e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "journal/2026-06-12.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/屏幕截图_20260528_152106.png"
               },
-              "icon": "lucide-file",
-              "title": "2026-06-12"
+              "icon": "lucide-image",
+              "title": "屏幕截图_20260528_152106"
             }
           }
         ]
@@ -178,6 +176,7 @@
   },
   "active": "9f41fbec67bfc52e",
   "lastOpenFiles": [
+    "journal/2026-06-12.md",
     "projects/slay-the-spire-card-maker-vibe-coding.md",
     "projects/slay-the-spire-card-maker-vibe-coding.md.tmp.109.7136526f3869",
     "projects/slay-the-spire-card-maker-vibe-coding.md.tmp.109.a43d561b69d9",
