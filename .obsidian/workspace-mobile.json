@@ -11,12 +11,14 @@
             "id": "9f41fbec67bfc52e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/屏幕截图_20260528_152106.png"
+                "file": "journal/2026-06-12.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "屏幕截图_20260528_152106"
+              "icon": "lucide-file",
+              "title": "2026-06-12"
             }
           }
         ]
@@ -176,6 +178,8 @@
   },
   "active": "9f41fbec67bfc52e",
   "lastOpenFiles": [
+    "journal/2026-06-12.md.tmp.109.9333bd16ca60",
+    "assets/屏幕截图_20260528_152106.png",
     "journal/2026-06-12.md",
     "projects/slay-the-spire-card-maker-vibe-coding.md",
     "projects/slay-the-spire-card-maker-vibe-coding.md.tmp.109.7136526f3869",
